@@ -1,5 +1,5 @@
 {% set name = "red-molsim" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/red-molsim/red_molsim-{{ version }}.tar.gz
-  sha256: 474b76892f378e07c964e333ad80531675dfe42eaa8f4a06e6fc2d95541f6f5e
+  sha256: 7adb6972d9d147e5608ad91d73c33258e36cd08b7b6e696b07de18555484930e
 
 build:
   noarch: python
